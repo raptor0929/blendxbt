@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "target": "es2016",
+      "module": "commonjs",
+      "rootDir": "./",  // Look up one directory to include everything
+      "outDir": "./dist",
+      "typeRoots": [
+        "./node_modules/@types",
+        "./types"
+      ],
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true
+    },
+    "include": [
+      "./**/*",           // Include all example files
+      "../plugins/**/example.ts"  // Include plugin examples
+    ]
+} 

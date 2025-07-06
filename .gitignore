@@ -1,19 +1,27 @@
-# node
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 node_modules
 
-# rust
-.cargo
+# next.js
+/.next/
+/out/
 
+# production
+/build
 
-# env
-.env
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Rust's output directory
-target
+# env files
+.env*
 
-# Local settings
-.soroban
-.stellar
+# vercel
+.vercel
 
-# test
-test_snapshots
+# typescript
+*.tsbuildinfo
+next-env.d.ts

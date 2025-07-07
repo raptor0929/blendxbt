@@ -60,7 +60,7 @@ export default function LandingPage() {
             className="bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white font-semibold px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             asChild
           >
-            <a href="https://t.me/your_telegram_username" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/AidenBaseBot" target="_blank" rel="noopener noreferrer">
               Start on Telegram <ArrowRight className="ml-2 h-5 w-5" />
             </a>
           </Button>
